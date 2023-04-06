@@ -1,0 +1,80 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Play&family=Ubuntu&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    background-image:url('./bg.jpg');
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+    height:100vh;
+    font-family: 'Play', sans-serif;
+
+
+}
+.wrapper{
+    display: flex;
+    width:400px;
+    top:50%;
+    left:50%;transform: translate(-50%,-50%);  
+    position: absolute;
+    
+   
+    
+
+}
+.col-1{
+   background-color:rgb(211, 211, 211);
+   background-repeat: no-repeat;
+   width:70%;
+   color:rgb(45, 89, 131);
+   padding:10px;
+   border-radius:5px 0px 0px  5px;
+  
+}
+.col-2{
+    width:30%;
+    background-color:rgb(12, 96, 12);
+    border-left:1px solid rgb(89, 71, 71);
+    border-radius:0px 5px 5px  0px;
+}
+.col-1 h2{
+    font-size: 20px;
+    text-align: center;
+   padding:6px;
+}
+.col-1 label{
+    font-size: 15px;
+}
+.col-1 input{
+    width:75px;
+    margin:6px;
+}
+.calculate{
+    padding:6px 3px;
+    margin:6px;
+    font-size: 14px;
+    text-decoration: bold;
+    color:rgb(231, 228, 228);
+    background-color:rgb(45, 89, 131);
+    border:none;
+    border-radius: 2px;
+    cursor: pointer;
+
+}
+.col-2{
+    text-align: center;
+    color:rgb(211, 211, 211);
+}
+.col-2 h4{
+   padding:6px;
+    
+}
+.col-2 h3{
+    color:rgb(236, 228, 228);
+    padding:10px;
+}
