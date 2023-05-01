@@ -15,7 +15,8 @@ const DigitalClock = () =>{
     ss = (ss < 10 ) ? "0" + ss : ss;
     let time  = `${hh} : ${mm} : ${ss} ${session}`;
     document.querySelector('#clock').innerHTML = time;
-    let t = setTimeout(function(){DigitalClock()},1000);
+    let t = setInterval(function () {DigitalClock()}, 1000);
+    // let t = setTimeout(function(){DigitalClock()},1000);
 
     const months = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October','November', 'December'];
     const days = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'];
